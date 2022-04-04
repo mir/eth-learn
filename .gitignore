@@ -1,4 +1,4 @@
-.env
+*.env
 /artifacts
 /ganache-keys.txt
 compiled_code.json

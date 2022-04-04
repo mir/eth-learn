@@ -8,7 +8,7 @@ from solcx import compile_standard, install_solc
 import os
 from dotenv import dotenv_values
 
-config = dotenv_values(".env") 
+config = dotenv_values("ganache.env") 
 
 with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
